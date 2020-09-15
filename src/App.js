@@ -1,4 +1,5 @@
 import React from "react";
+import "semantic-ui-css/semantic.min.css";
 import Accordion from "./components/Accordion";
 
 const items = [
@@ -20,7 +21,6 @@ const items = [
 export default () => {
   return (
     <div>
-      <h2>The App Component!</h2>
       <Accordion items={items} />
     </div>
   );
