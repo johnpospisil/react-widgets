@@ -1,5 +1,5 @@
 import React from "react";
-// import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css";
 // import Accordion from "./components/Accordion";
 import Search from "./components/Search";
 
