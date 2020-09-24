@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./Dropdown.css";
 
 const Dropdown = ({ options, selected, onSelectedChange }) => {
   const [open, setOpen] = useState(false);
@@ -58,6 +59,10 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
           </div>
         </div>
       </div>
+      <span>
+        The selected color is{" "}
+        <span className={selected.value}>{selected.value}</span>.
+      </span>
     </div>
   );
 };
