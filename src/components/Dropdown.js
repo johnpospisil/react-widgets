@@ -59,10 +59,11 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
           </div>
         </div>
       </div>
-      <span>
+      {/* TODO - Move the displayed color message to a different component */}
+      {/* <span>
         The selected color is{" "}
         <span className={selected.value}>{selected.value}</span>.
-      </span>
+      </span> */}
     </div>
   );
 };
