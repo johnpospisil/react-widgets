@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "semantic-ui-css/semantic.min.css";
 // import Accordion from "./components/Accordion";
 // import Search from "./components/Search";
